@@ -16,5 +16,8 @@ public class MathClassConcept {
 
         double number = Math.random(); //returns number between 0 and 1
         System.out.println(number);
+
+        int randNumbers = (int) (Math.random() * 100);
+        System.out.println("Result of randNumbers: " +randNumbers);
     }
 }
